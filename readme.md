@@ -1,4 +1,4 @@
-# 💼 Portfólio Profissional — Bianca Pichirilo Vergueiro Benatti
+# 💼 Portfólio Profissional — Bianca Benatti
 
 Seja bem-vindo(a) ao meu portfólio profissional!  
 Este projeto tem como objetivo apresentar minha trajetória, habilidades técnicas e projetos desenvolvidos no decorrer da minha transição de carreira para o Desenvolvimento de Software.
@@ -52,4 +52,4 @@ Este projeto tem como objetivo apresentar minha trajetória, habilidades técnic
 Este portfólio é uma aplicação estática que consome dados de um arquivo JSON simulado como API.  
 Todo o conteúdo do site (foto, dados pessoais, habilidades, projetos, etc.) é alimentado por esse arquivo.
 
-# API: [https://biancabenatti.github.io/DIO_portfolio-api/profile.json](https://biancabenatti.github.io/DIO_portfolio-api/profile.json)
+API: [https://biancabenatti.github.io/DIO_portfolio-api/profile.json](https://biancabenatti.github.io/DIO_portfolio-api/profile.json)
