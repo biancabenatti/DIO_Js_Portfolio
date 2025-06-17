@@ -1,0 +1,66 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .tools ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills .tools ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: azure;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.skills .tools ul li img {
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.skills .personal {
+    margin-left: 7rem;
+}
+
+.skills .personal ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.skills .personal ul li {
+    margin-bottom: 0.8rem;
+    color: #ECEFF1;
+}
+
+@media only screen and (min-width: 768px) {
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .skills .tools,
+    .skills .personal {
+        margin-bottom: 0;
+    }
+}
